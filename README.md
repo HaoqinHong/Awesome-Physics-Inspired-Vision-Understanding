@@ -13,7 +13,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 - [Physics for Computer Graphics Self-Studying Plan](https://github.com/HaoqinHong/Physics-for-Graphics-Notes)
 - [Keep Updating] Paper Interpretation (Only allowed for studying 🫡)
     - [3D Gaussian Splatting](https://drive.google.com/file/d/1oM7mbGSl8osIrZPsmdXvczVDCtFTxJ1D/view?usp=drive_link)
-    - [2D Gaussian Splatting](https://drive.google.com/file/d/1oM7mbGSl8osIrZPsmdXvczVDCtFTxJ1D/view?usp=drive_link)
+    - [2D Gaussian Splatting](https://drive.google.com/file/d/1QFrkBhMLyqLRCn7bujKy98B0hI34PFEH/view?usp=drive_link)
     - [PhysGaussian](https://drive.google.com/file/d/1gGP4GepEl_6BimyBY2mKY-1maDdQF5Eo/view?usp=drive_link)
     - [PhysDreamer and KAN](https://drive.google.com/file/d/1UeIEYOUAYjqssfW6EOnoi57hhoc50uKX/view?usp=drive_link)
 
