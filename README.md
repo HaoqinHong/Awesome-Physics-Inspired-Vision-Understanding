@@ -4,4 +4,6 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 ## Table of contents
 
 - [Physics-Informed Neural Radiance Fields](#PI-NeRF)
-- [Solution of Inverse Problems](#Solution of Inverse Problems)
+- [Solution of Inverse Problems](#InverseProblems)
+- [Simulation Method Based on 3D Gaussian Splatting](#Sim3DGS)
+- [Reconstruction and Simulation Method Incorporating LLM](#SimLLM)
