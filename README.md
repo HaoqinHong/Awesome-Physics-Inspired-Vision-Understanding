@@ -23,6 +23,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 
     - **Physics-Informed Method**
       - [Physics Informed Neural Fields](https://drive.google.com/file/d/1vperfD5crgXPBXlTtspMpOguhXVQLZmU/view?usp=drive_link)
+      - [Physics-Informed Learning of Characteristic Trajectories](https://drive.google.com/file/d/1blHG7hLBt8Ndm8s1tV4ZgCA06D1dqpPu/view?usp=drive_link)
 
 ## Solution of Inverse Problems Using NeRF or 3DGS
 
