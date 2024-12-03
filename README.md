@@ -14,20 +14,32 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 
 - [Physics for Computer Graphics Self-Studying Plan](https://github.com/HaoqinHong/Physics-for-Graphics-Notes)
 - **[Keep Updating] Paper Interpretation** (Only allowed for studying 🫡)
-  - **Foundation Papers**
-    
-    - [3D Gaussian Splatting](https://drive.google.com/file/d/1oM7mbGSl8osIrZPsmdXvczVDCtFTxJ1D/view?usp=drive_link)
-    - [2D Gaussian Splatting](https://drive.google.com/file/d/1QFrkBhMLyqLRCn7bujKy98B0hI34PFEH/view?usp=drive_link)
-    - [Dynamic 3D Gaussians & 4D Gaussian Splatting](https://drive.google.com/file/d/12WS_nT51RxmYC8OIg7bw9K-Uwl6fgALD/view?usp=drive_link)
-    - [Deformable-Gaussians](https://drive.google.com/file/d/1rheSh8b9ddjkNqO2vwPT7PSiTZS5BnCD/view?usp=drive_link)
-  - **Simulation Method**
-    
-    - [PhysGaussian](https://drive.google.com/file/d/1gGP4GepEl_6BimyBY2mKY-1maDdQF5Eo/view?usp=drive_link)
-    - [PhysDreamer & KAN & Other Physics-based Learning Methods](https://drive.google.com/file/d/1UeIEYOUAYjqssfW6EOnoi57hhoc50uKX/view?usp=drive_link)
-  - **Physics-Informed Method**
-    
-    - [Physics Informed Neural Fields](https://drive.google.com/file/d/1vperfD5crgXPBXlTtspMpOguhXVQLZmU/view?usp=drive_link)
-    - [Physics-Informed Learning of Characteristic Trajectories](https://drive.google.com/file/d/1blHG7hLBt8Ndm8s1tV4ZgCA06D1dqpPu/view?usp=drive_link)
+
+<details>
+    <summary style="margin-left: 40px;"><b>Foundation Papers</b></summary>
+    <ul>
+        <li style="margin-left: 50px;"><a href="https://drive.google.com/file/d/1oM7mbGSl8osIrZPsmdXvczVDCtFTxJ1D/view?usp=drive_link">3D Gaussian Splatting</a></li>
+        <li style="margin-left: 50px;"><a href="https://drive.google.com/file/d/1QFrkBhMLyqLRCn7bujKy98B0hI34PFEH/view?usp=drive_link">2D Gaussian Splatting</a></li>
+        <li style="margin-left: 50px;"><a href="https://drive.google.com/file/d/12WS_nT51RxmYC8OIg7bw9K-Uwl6fgALD/view?usp=drive_link">Dynamic 3D Gaussians & 4D Gaussian Splatting</a></li>
+        <li style="margin-left: 50px;"><a href="https://drive.google.com/file/d/1rheSh8b9ddjkNqO2vwPT7PSiTZS5BnCD/view?usp=drive_link">Deformable-Gaussians</a></li>
+    </ul>
+</details>
+
+<details>
+    <summary style="margin-left: 40px;"><b>Simulation Method Papers</b></summary>
+    <ul>
+        <li style="margin-left: 50px;"><a href="https://drive.google.com/file/d/1gGP4GepEl_6BimyBY2mKY-1maDdQF5Eo/view?usp=drive_link">PhysGaussian</a></li>
+        <li style="margin-left: 50px;"><a href="https://drive.google.com/file/d/1UeIEYOUAYjqssfW6EOnoi57hhoc50uKX/view?usp=drive_link">PhysDreamer & KAN & Other Physics-based Learning Methods</a></li>
+    </ul>
+</details>
+
+<details>
+    <summary style="margin-left: 40px;"><b>Physics-Informed Method Papers</b></summary>
+    <ul>
+        <li style="margin-left: 50px;"><a href="https://drive.google.com/file/d/1vperfD5crgXPBXlTtspMpOguhXVQLZmU/view?usp=drive_link">Physics Informed Neural Fields</a></li>
+        <li style="margin-left: 50px;"><a href="https://drive.google.com/file/d/1blHG7hLBt8Ndm8s1tV4ZgCA06D1dqpPu/view?usp=drive_link">Physics-Informed Learning of Characteristic Trajectories</a></li>
+    </ul>
+</details>
 
 ### Update Log
 
