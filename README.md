@@ -10,21 +10,34 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 - [Reconstruction and Simulation Method Incorporating LLM](#reconstruction-and-simulation-method-incorporating-llm)
 - [Physics-Informed Fluid Reconstruction](#physics-informed-fluid-reconstruction)
 
-## Related Knowledge Resources 
+## Related Knowledge Resources
+
 - [Physics for Computer Graphics Self-Studying Plan](https://github.com/HaoqinHong/Physics-for-Graphics-Notes)
 - **[Keep Updating] Paper Interpretation** (Only allowed for studying 🫡)
-    - **Foundation Papers**
-      - [3D Gaussian Splatting](https://drive.google.com/file/d/1oM7mbGSl8osIrZPsmdXvczVDCtFTxJ1D/view?usp=drive_link)
-      - [2D Gaussian Splatting](https://drive.google.com/file/d/1QFrkBhMLyqLRCn7bujKy98B0hI34PFEH/view?usp=drive_link)
-      - [Deformable-Gaussians](https://drive.google.com/file/d/1rheSh8b9ddjkNqO2vwPT7PSiTZS5BnCD/view?usp=drive_link)
+  - **Foundation Papers**
+    
+    - [3D Gaussian Splatting](https://drive.google.com/file/d/1oM7mbGSl8osIrZPsmdXvczVDCtFTxJ1D/view?usp=drive_link)
+    - [2D Gaussian Splatting](https://drive.google.com/file/d/1QFrkBhMLyqLRCn7bujKy98B0hI34PFEH/view?usp=drive_link)
+    - [Deformable-Gaussians](https://drive.google.com/file/d/1rheSh8b9ddjkNqO2vwPT7PSiTZS5BnCD/view?usp=drive_link)
+  - **Simulation Method**
+    
+    - [PhysGaussian](https://drive.google.com/file/d/1gGP4GepEl_6BimyBY2mKY-1maDdQF5Eo/view?usp=drive_link)
+    - [PhysDreamer and KAN](https://drive.google.com/file/d/1UeIEYOUAYjqssfW6EOnoi57hhoc50uKX/view?usp=drive_link)
+  - **Physics-Informed Method**
+    
+    - [Physics Informed Neural Fields](https://drive.google.com/file/d/1vperfD5crgXPBXlTtspMpOguhXVQLZmU/view?usp=drive_link)
+    - [Physics-Informed Learning of Characteristic Trajectories](https://drive.google.com/file/d/1blHG7hLBt8Ndm8s1tV4ZgCA06D1dqpPu/view?usp=drive_link)
 
-    - **Simulation Method**
-      - [PhysGaussian](https://drive.google.com/file/d/1gGP4GepEl_6BimyBY2mKY-1maDdQF5Eo/view?usp=drive_link)
-      - [PhysDreamer and KAN](https://drive.google.com/file/d/1UeIEYOUAYjqssfW6EOnoi57hhoc50uKX/view?usp=drive_link)
+### Update Log
 
-    - **Physics-Informed Method**
-      - [Physics Informed Neural Fields](https://drive.google.com/file/d/1vperfD5crgXPBXlTtspMpOguhXVQLZmU/view?usp=drive_link)
-      - [Physics-Informed Learning of Characteristic Trajectories](https://drive.google.com/file/d/1blHG7hLBt8Ndm8s1tV4ZgCA06D1dqpPu/view?usp=drive_link)
+<details span><summary><b>Details</b></summary>
+<p> 2024-12-3 by Haoqin Hong: Add Physical Material Simulators Module.</p>
+
+<p> 2024-12-2 by Haoqin Hong: Update initial Version.</p>
+
+
+
+</details>
 
 ## Solution of Inverse Problems Using NeRF or 3DGS
 
@@ -65,10 +78,6 @@ Existing approaches to system identification (estimating the physical parameters
 <a href="https://xuan-li.github.io/PAC-NeRF/">🌐 Project Page</a>  
 <a href="https://github.com/xuan-li/PAC-NeRF">💻 Code</a>
 
- 
-
-
-
 ## Simulation Method Based on 3D Gaussian Splatting
 
 ### 2024
@@ -83,9 +92,6 @@ Dynamic 3D interaction has been attracting a lot of attention recently. However,
 <a href="https://arxiv.org/abs/2406.01476">📄 Paper</a> 
 <a href="https://github.com/tyhuang0428/dreamphysics">💻 Code</a>
 
-
-
-
 #### Gaussian Splashing: Unified Particles for Versatile Motion Synthesis and Rendering
 
 **Authors:** [Yutao Feng](https://arxiv.org/search/cs?searchtype=author&query=Feng,+Y), [Xiang Feng](https://arxiv.org/search/cs?searchtype=author&query=Feng,+X), [Yintong Shang](https://arxiv.org/search/cs?searchtype=author&query=Shang,+Y), [Ying Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+Y), [Chang Yu](https://arxiv.org/search/cs?searchtype=author&query=Yu,+C), [Zeshun Zong](https://arxiv.org/search/cs?searchtype=author&query=Zong,+Z), [Tianjia Shao](https://arxiv.org/search/cs?searchtype=author&query=Shao,+T), [Hongzhi Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+H), [Kun Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+K), [Chenfanfu Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+C), [Yin Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+Y)
@@ -95,8 +101,6 @@ We demonstrate the feasibility of integrating physics-based animations of solids
 </details>
 <a href="https://arxiv.org/abs/2401.15318">📄 Paper</a>  
 <a href="https://gaussiansplashing.github.io/">🌐 Project Page</a>  <a>💻 Code (Not yet)</a>
-
-
 
 #### [ACM MM 2024] LoopGaussian: Creating 3D Cinemagraph with Multi-view Images via Eulerian Motion Field
 
@@ -108,9 +112,6 @@ Cinemagraph creates captivating video experience by combining elements of still 
 <a href="https://arxiv.org/abs/2404.08966">📄 Paper</a>  
 <a href="https://pokerlishao.github.io/LoopGaussian/">🌐 Project Page</a>  
 <a href="https://github.com/Pokerlishao/LoopGaussian">💻 Code</a>
-
-
-
 
 #### [ECCV 2024] PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation
 
@@ -134,21 +135,20 @@ We introduce PhysGaussian a new method that seamlessly integrates physically gro
 <a href="https://xpandora.github.io/PhysGaussian/">🌐 Project Page</a>  
 <a href="https://github.com/XJay18/NeuMA?tab=readme-ov-file#data">💻 Code</a>
 
-
-
 ## Physical Material Simulators
+
 ### 2024
+
 #### [NeurIPS 2024] NeuMA: Neural Material Adaptor for Visual Grounding of Intrinsic Dynamics
+
 **Authors:** J Cao, S Guan, Y Ge, W Li, X Yang, C Ma
+
 <details span><summary><b>Abstract</b></summary>
 While humans effortlessly discern intrinsic dynamics and adapt to new scenarios, modern AI systems often struggle. Current methods for visual grounding of dynamics either use pure neural-network-based simulators (black box), which may violate physical laws, or traditional physical simulators (white box), which rely on expert-defined equations that may not fully capture actual dynamics. We propose the Neural Material Adaptor (NeuMA), which integrates existing physical laws with learned corrections, facilitating accurate learning of actual dynamics while maintaining the generalizability and interpretability of physical priors. Additionally, we propose Particle-GS, a particle-driven 3D Gaussian Splatting variant that bridges simulation and observed images, allowing back-propagate image gradients to optimize the simulator. Comprehensive experiments on various dynamics in terms of grounded particle accuracy, dynamic rendering quality, and generalization ability demonstrate that NeuMA can accurately capture intrinsic dynamics. Project Page: https://xjay18.github.io/projects/neuma.html.
 </details>
 <a href="https://openreview.net/pdf?id=AvWB40qXZh">📄 Paper</a>  
 <a href="https://xjay18.github.io/projects/neuma.html">🌐 Project Page</a>  
 <a href="https://github.com/XPandora/PhysGaussian">💻 Code</a>
-
-
-
 
 ## Reconstruction and Simulation Method Incorporating LLM
 
@@ -165,8 +165,6 @@ Recent advancements in 3D generation models have opened new possibilities for si
 <a href="https://sim-gs.github.io/">🌐 Project Page</a>  
 <a>💻 Code (Not yet)</a>
 
-
-
 #### Unleashing the Potential of Multi-modal Foundation Models and Video Diffusion for 4D Dynamic Physical Scene Simulation
 
 **Authors:** [Zhuoman Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+Z), [Weicai Ye](https://arxiv.org/search/cs?searchtype=author&query=Ye,+W), [Yan Luximon](https://arxiv.org/search/cs?searchtype=author&query=Luximon,+Y), [Pengfei Wan](https://arxiv.org/search/cs?searchtype=author&query=Wan,+P), [Di Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+D)
@@ -177,8 +175,6 @@ Realistic simulation of dynamic scenes requires accurately capturing diverse mat
 <a href="https://arxiv.org/abs/2411.14423">📄 Paper</a>  
 <a href="https://zhuomanliu.github.io/PhysFlow/">🌐 Project Page</a>  
 <a>💻 Code (Not yet)</a>
-
-
 
 ## Physics-Informed Fluid Reconstruction
 
