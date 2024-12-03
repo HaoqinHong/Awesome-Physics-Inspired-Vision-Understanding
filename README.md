@@ -6,7 +6,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 
 - [Solution of Inverse Problems Using NeRF or 3DGS](#solution-of-inverse-problems-using-nerf-or-3dgs)
 - [Simulation Method Based on 3D Gaussian Splatting](#simulation-method-based-on-3d-gaussian-splatting)
-- [Physically-Based Material Adaptor](#physically-based-material_adaptor)
+- [Physical Simulators](#physical-simulators)
 - [Reconstruction and Simulation Method Incorporating LLM](#reconstruction-and-simulation-method-incorporating-llm)
 - [Physics-Informed Fluid Reconstruction](#physics-informed-fluid-reconstruction)
 
@@ -134,7 +134,7 @@ We introduce PhysGaussian a new method that seamlessly integrates physically gro
 <a href="https://xpandora.github.io/PhysGaussian/">🌐 Project Page</a>  
 <a href="https://github.com/XJay18/NeuMA?tab=readme-ov-file#data">💻 Code</a>
 
-## Physically-Based Material Adaptor
+## Physical Simulators
 ### 2024
 #### [NeurIPS 2024] NeuMA: Neural Material Adaptor for Visual Grounding of Intrinsic Dynamics
 **Authors:** J Cao, S Guan, Y Ge, W Li, X Yang, C Ma
