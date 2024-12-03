@@ -6,6 +6,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 
 - [Solution of Inverse Problems Using NeRF or 3DGS](#solution-of-inverse-problems-using-nerf-or-3dgs)
 - [Simulation Method Based on 3D Gaussian Splatting](#simulation-method-based-on-3d-gaussian-splatting)
+- [Physically-Based Material Adaptor](#physically-based-material_adaptor)
 - [Reconstruction and Simulation Method Incorporating LLM](#reconstruction-and-simulation-method-incorporating-llm)
 - [Physics-Informed Fluid Reconstruction](#physics-informed-fluid-reconstruction)
 
@@ -131,7 +132,19 @@ We introduce PhysGaussian a new method that seamlessly integrates physically gro
 </details>
 <a href="https://arxiv.org/abs/2311.12198">📄 Paper</a>  
 <a href="https://xpandora.github.io/PhysGaussian/">🌐 Project Page</a>  
+<a href="https://github.com/XJay18/NeuMA?tab=readme-ov-file#data">💻 Code</a>
+
+## Physically-Based Material Adaptor
+### 2024
+#### [NeurIPS 2024] NeuMA: Neural Material Adaptor for Visual Grounding of Intrinsic Dynamics
+**Authors:** J Cao, S Guan, Y Ge, W Li, X Yang, C Ma
+<details span><summary><b>Abstract</b></summary>
+While humans effortlessly discern intrinsic dynamics and adapt to new scenarios, modern AI systems often struggle. Current methods for visual grounding of dynamics either use pure neural-network-based simulators (black box), which may violate physical laws, or traditional physical simulators (white box), which rely on expert-defined equations that may not fully capture actual dynamics. We propose the Neural Material Adaptor (NeuMA), which integrates existing physical laws with learned corrections, facilitating accurate learning of actual dynamics while maintaining the generalizability and interpretability of physical priors. Additionally, we propose Particle-GS, a particle-driven 3D Gaussian Splatting variant that bridges simulation and observed images, allowing back-propagate image gradients to optimize the simulator. Comprehensive experiments on various dynamics in terms of grounded particle accuracy, dynamic rendering quality, and generalization ability demonstrate that NeuMA can accurately capture intrinsic dynamics. Project Page: https://xjay18.github.io/projects/neuma.html.
+</details>
+<a href="https://openreview.net/pdf?id=AvWB40qXZh">📄 Paper</a>  
+<a href="https://xjay18.github.io/projects/neuma.html">🌐 Project Page</a>  
 <a href="https://github.com/XPandora/PhysGaussian">💻 Code</a>
+
 
 ## Reconstruction and Simulation Method Incorporating LLM
 
