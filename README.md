@@ -18,11 +18,12 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
     
     - [3D Gaussian Splatting](https://drive.google.com/file/d/1oM7mbGSl8osIrZPsmdXvczVDCtFTxJ1D/view?usp=drive_link)
     - [2D Gaussian Splatting](https://drive.google.com/file/d/1QFrkBhMLyqLRCn7bujKy98B0hI34PFEH/view?usp=drive_link)
+    - [Dynamic 3D Gaussians & 4D Gaussian Splatting](https://drive.google.com/file/d/12WS_nT51RxmYC8OIg7bw9K-Uwl6fgALD/view?usp=drive_link)
     - [Deformable-Gaussians](https://drive.google.com/file/d/1rheSh8b9ddjkNqO2vwPT7PSiTZS5BnCD/view?usp=drive_link)
   - **Simulation Method**
     
     - [PhysGaussian](https://drive.google.com/file/d/1gGP4GepEl_6BimyBY2mKY-1maDdQF5Eo/view?usp=drive_link)
-    - [PhysDreamer and KAN](https://drive.google.com/file/d/1UeIEYOUAYjqssfW6EOnoi57hhoc50uKX/view?usp=drive_link)
+    - [PhysDreamer & KAN & Other Physics-based Learning Methods](https://drive.google.com/file/d/1UeIEYOUAYjqssfW6EOnoi57hhoc50uKX/view?usp=drive_link)
   - **Physics-Informed Method**
     
     - [Physics Informed Neural Fields](https://drive.google.com/file/d/1vperfD5crgXPBXlTtspMpOguhXVQLZmU/view?usp=drive_link)
