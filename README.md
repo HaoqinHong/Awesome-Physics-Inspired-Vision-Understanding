@@ -42,7 +42,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
     </ul>
 </details>
 
-### Update Log
+## Update Log
 
 <details span><summary><b>Details</b></summary>
 <li>2024-12-3 by Haoqin Hong: Update physical material simulators module.</li>
