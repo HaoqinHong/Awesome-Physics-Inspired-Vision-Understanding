@@ -31,11 +31,9 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 ### Update Log
 
 <details span><summary><b>Details</b></summary>
-<p> 2024-12-3 by Haoqin Hong: Add Physical Material Simulators Module.</p>
-
-<p> 2024-12-2 by Haoqin Hong: Update initial Version.</p>
-
-
+<li>2024-12-3 by Haoqin Hong: Update physical material simulators module.</li>
+<li>2024-12-2 by Haoqin Hong: Update my knowledge notebooks.</li>
+<li>2024-12-2 by Haoqin Hong: Update initial version.</li>
 
 </details>
 
