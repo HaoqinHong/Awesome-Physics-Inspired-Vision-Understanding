@@ -13,6 +13,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 ## Related Knowledge Resources
 
 <a herf="https://github.com/HaoqinHong/Physics-for-Graphics-Notes"> **Physics for Computer Graphics Self-Studying Plan**</a>
+<br>
 **[Keep Updating] Paper Interpretation** (Only allowed for studying 🫡):
 
 <details>
