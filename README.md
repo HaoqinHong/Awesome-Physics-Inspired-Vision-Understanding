@@ -11,7 +11,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 
 ## Related Knowledge Resources
 
-<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes"> **Physics for Computer Graphics Self-Studying Plan** (By Myself)</a>
+<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes"> **Physics for Computer Graphics Self-Studying Plan** </a>(By Myself)
 
 <a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting"> **Awesome 3D Gaussian Splatting**</a>
 
