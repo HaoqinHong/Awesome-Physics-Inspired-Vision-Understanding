@@ -13,9 +13,9 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 
 ## Related Knowledge Resources
 
-`<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes">` **Physics for Computer Graphics Self-Studying Plan** `</a>`(By Myself)
+<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes">**Physics for Computer Graphics Self-Studying Plan**</a>(By Myself)
 
-`<a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting">` **Awesome 3D Gaussian Splatting**`</a>`
+<a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting"> **Awesome 3D Gaussian Splatting**</a>
 
 **🫡 [Keep Updating] Paper Interpretation** (By Myself, only allowed for studying):
 
@@ -258,9 +258,6 @@ Recently, 3D Gaussian Splatting (3DGS) has demonstrated impressive novel view sy
 <a href="https://niujinshuchong.github.io/gaussian-opacity-fields/">🌐 Project Page</a>  
 <a href="https://github.com/autonomousvision/gaussian-opacity-fields">💻 Code</a>
 
-
-
-
 #### [ACM SIGGRAPH 2024 & ACM ToG] 2D Gaussian Splatting for Geometrically Accurate Radiance Fields
 
 **Authors:** [B Huang](https://scholar.google.com/citations?user=5da8iKwAAAAJ&hl=zh-CN&oi=sra), [Z Yu](https://scholar.google.com/citations?user=Z8MwnzsAAAAJ&hl=zh-CN&oi=sra), [A Chen](https://scholar.google.com/citations?user=fuR1FBwAAAAJ&hl=zh-CN&oi=sra), [A Geiger](https://scholar.google.com/citations?user=SrVnrPcAAAAJ&hl=zh-CN&oi=sra), [S Gao](https://scholar.google.com/citations?user=fe-1v0MAAAAJ&hl=zh-CN&oi=sra)
@@ -320,8 +317,6 @@ Implicit neural representation has paved the way for new approaches to dynamic s
 <a href="https://arxiv.org/abs/2309.13101">📄 Paper</a>  
 <a href="https://guanjunwu.github.io/4dgs/index.html">🌐 Project Page</a>  
 <a href="https://github.com/ingra14m/Deformable-3D-Gaussians">💻 Code</a>
-
-
 
 #### [CVPR 2024] 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
 
