@@ -45,15 +45,16 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
     </ul>
 </details>
 
-## Open-Source Implementations
+## Open-Source Tools
 
 <li><a href="https://playcanvas.com/supersplat/editor/ "> Online Gaussian Editor</a></li>
 
 ## Update Log
 
 <details span><summary><b>Details</b></summary>
+<li>2024-12-17 by Haoqin Hong: Refine the Projects.</li>
 <li>2024-12-10 by Haoqin Hong: Update Representive Basic Methods: 3D Reconstruction or Dynamic New View Synthesis module.</li>
-<li>2024-12-4 by Haoqin Hong: Update open-source implementations module and merge physical material simulators module.</li>
+<li>2024-12-4 by Haoqin Hong: Update open-source tools module and merge physical material simulators module.</li>
 <li>2024-12-3 by Haoqin Hong: Update physical material simulators module.</li>
 <li>2024-12-2 by Haoqin Hong: Update my knowledge notebooks.</li>
 <li>2024-12-2 by Haoqin Hong: Update initial version.</li>
@@ -341,4 +342,3 @@ We present a method that simultaneously addresses the tasks of dynamic scene nov
 <a href="https://arxiv.org/pdf/2308.09713">📄 Paper</a>  
 <a href="https://dynamic3dgaussians.github.io/">🌐 Project Page</a>  
 <a href="https://github.com/JonathonLuiten/Dynamic3DGaussians">💻 Code</a>
-
