@@ -7,16 +7,16 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 - [Solution of Inverse Problems Using NeRF or 3DGS](#solution-of-inverse-problems-using-nerf-or-3dgs)
 - [Simulation Method Based on 3D Gaussian Splatting](#simulation-method-based-on-3d-gaussian-splatting)
 - [Reconstruction and Simulation Method Incorporating LLM](#reconstruction-and-simulation-method-incorporating-llm)
-- [Physically-Based Rendering](#physically-based-rendering)
+- [Physically-Based Rendering Using NeRF or 3DGS](#physically-based-rendering-using-nerf-or-3dgs)
 - [Physics-Informed Fluid Reconstruction](#physics-informed-fluid-reconstruction)
 - [Representive Basic Methods: 3D Reconstruction](#representive-basic-methods-3d-reconstruction)
 - [Representive Basic Methods: Dynamic New View Synthesis](#representive-basic-methods-dynamic-new-view-synthesis)
 
 ## Related Knowledge Resources
 
-`<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes">`**Physics for Computer Graphics Self-Studying Plan**`</a>` (By Myself)
+<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes">**Physics for Computer Graphics Self-Studying Plan**`</a>` (By Myself)
 
-`<a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting">` **Awesome 3D Gaussian Splatting**`</a>`
+<a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting"> **Awesome 3D Gaussian Splatting**`</a>`
 
 **🫡 [Keep Updating] Paper Interpretation** (By Myself, only allowed for studying):
 
@@ -53,7 +53,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 ## Update Log
 
 <details span><summary><b>Details</b></summary>
-<li>2024-12-21 by Haoqin Hong: Update 3 papers.</li>
+<li>2024-12-21 by Haoqin Hong: Update Physically-Based Rendering Using NeRF or 3DGS module and 3 papers.</li>
 <li>2024-12-17 by Haoqin Hong: Refine the Projects.</li>
 <li>2024-12-10 by Haoqin Hong: Update Representive Basic Methods: 3D Reconstruction or Dynamic New View Synthesis module.</li>
 <li>2024-12-4 by Haoqin Hong: Update open-source tools module and merge physical material simulators module.</li>
@@ -208,7 +208,7 @@ Realistic simulation of dynamic scenes requires accurately capturing diverse mat
 <a href="https://zhuomanliu.github.io/PhysFlow/">🌐 Project Page</a>  
 <a>💻 Code (Not yet)</a>
 
-## Physically-Based Rendering
+## Physically-Based Rendering Using NeRF or 3DGS
 
 ### 2024
 
