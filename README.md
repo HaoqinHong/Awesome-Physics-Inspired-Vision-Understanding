@@ -7,15 +7,16 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 - [Solution of Inverse Problems Using NeRF or 3DGS](#solution-of-inverse-problems-using-nerf-or-3dgs)
 - [Simulation Method Based on 3D Gaussian Splatting](#simulation-method-based-on-3d-gaussian-splatting)
 - [Reconstruction and Simulation Method Incorporating LLM](#reconstruction-and-simulation-method-incorporating-llm)
+- [Physically-Based Rendering](#physically-based-rendering)
 - [Physics-Informed Fluid Reconstruction](#physics-informed-fluid-reconstruction)
 - [Representive Basic Methods: 3D Reconstruction](#representive-basic-methods-3d-reconstruction)
 - [Representive Basic Methods: Dynamic New View Synthesis](#representive-basic-methods-dynamic-new-view-synthesis)
 
 ## Related Knowledge Resources
 
-<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes">**Physics for Computer Graphics Self-Studying Plan**</a> (By Myself)
+`<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes">`**Physics for Computer Graphics Self-Studying Plan**`</a>` (By Myself)
 
-<a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting"> **Awesome 3D Gaussian Splatting**</a>
+`<a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting">` **Awesome 3D Gaussian Splatting**`</a>`
 
 **🫡 [Keep Updating] Paper Interpretation** (By Myself, only allowed for studying):
 
@@ -52,6 +53,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 ## Update Log
 
 <details span><summary><b>Details</b></summary>
+<li>2024-12-21 by Haoqin Hong: Update 3 papers.</li>
 <li>2024-12-17 by Haoqin Hong: Refine the Projects.</li>
 <li>2024-12-10 by Haoqin Hong: Update Representive Basic Methods: 3D Reconstruction or Dynamic New View Synthesis module.</li>
 <li>2024-12-4 by Haoqin Hong: Update open-source tools module and merge physical material simulators module.</li>
@@ -172,6 +174,18 @@ We introduce PhysGaussian a new method that seamlessly integrates physically gro
 
 ### 2024
 
+#### Text-to-3D Gaussian Splatting with Physics-Grounded Motion Generation
+
+**Authors:** [Wenqing Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+W), [Yun Fu](https://arxiv.org/search/cs?searchtype=author&query=Fu,+Y)
+
+<details span><summary><b>Abstract</b></summary>
+Text-to-3D generation is a valuable technology in virtual reality and digital content creation. While recent works have pushed the boundaries of text-to-3D generation, producing high-fidelity 3D objects with inefficient prompts and simulating their physics-grounded motion accurately still remain unsolved challenges. To address these challenges, we present an innovative framework that utilizes the Large Language Model (LLM)-refined prompts and diffusion priors-guided Gaussian Splatting (GS) for generating 3D models with accurate appearances and geometric structures. We also incorporate a continuum mechanics-based deformation map and color regularization to synthesize vivid physics-grounded motion for the generated 3D Gaussians, adhering to the conservation of mass and momentum. By integrating text-to-3D generation with physics-grounded motion synthesis, our framework renders photo-realistic 3D objects that exhibit physics-aware motion, accurately reflecting the behaviors of the objects under various forces and constraints across different materials. Extensive experiments demonstrate that our approach achieves high-quality 3D generations with realistic physics-grounded motion.
+</details>
+<a href="https://arxiv.org/abs/2412.05560">📄 Paper</a>  
+<a>💻 Code (Not yet)</a>
+
+
+
 #### Sim Anything: Automated 3D Physical Simulation of Open-world Scene with Gaussian Splatting
 
 **Authors:** [Haoyu Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+H), [Hao Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+H), [Xingyue Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+X), [Hongqiu Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+H), [Zhiyu Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+Z), [Chengjiang Long](https://arxiv.org/search/cs?searchtype=author&query=Long,+C), [Hua Zou](https://arxiv.org/search/cs?searchtype=author&query=Zou,+H)
@@ -193,6 +207,33 @@ Realistic simulation of dynamic scenes requires accurately capturing diverse mat
 <a href="https://arxiv.org/abs/2411.14423">📄 Paper</a>  
 <a href="https://zhuomanliu.github.io/PhysFlow/">🌐 Project Page</a>  
 <a>💻 Code (Not yet)</a>
+
+## Physically-Based Rendering
+
+### 2024
+
+#### PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields
+
+**Authors:** [Sean Wu](https://export.arxiv.org/find/cs/1/au:+Wu_S/0/1/0/all/0/1), [Shamik Basu](https://export.arxiv.org/find/cs/1/au:+Basu_S/0/1/0/all/0/1), [Tim Broedermann](https://export.arxiv.org/find/cs/1/au:+Broedermann_T/0/1/0/all/0/1), [Luc Van Gool](https://export.arxiv.org/find/cs/1/au:+Gool_L/0/1/0/all/0/1), [Christos Sakaridis](https://export.arxiv.org/find/cs/1/au:+Sakaridis_C/0/1/0/all/0/1)
+
+<details span><summary><b>Abstract</b></summary>
+We tackle the ill-posed inverse rendering problem in 3D reconstruction with a Neural Radiance Field (NeRF) approach informed by Physics-Based Rendering (PBR) theory, named PBR-NeRF. Our method addresses a key limitation in most NeRF and 3D Gaussian Splatting approaches: they estimate view-dependent appearance without modeling scene materials and illumination. To address this limitation, we present an inverse rendering (IR) model capable of jointly estimating scene geometry, materials, and illumination. Our model builds upon recent NeRF-based IR approaches, but crucially introduces two novel physics-based priors that better constrain the IR estimation. Our priors are rigorously formulated as intuitive loss terms and achieve state-of-the-art material estimation without compromising novel view synthesis quality. Our method is easily adaptable to other inverse rendering and 3D reconstruction frameworks that require material estimation. We demonstrate the importance of extending current neural rendering approaches to fully model scene properties beyond geometry and view-dependent appearance. Code is publicly available at [this https URL](https://github.com/s3anwu/pbrnerf)
+</details>
+<a href="https://arxiv.org/html/2412.09680">📄 Paper</a>  
+<a href="https://github.com/s3anwu/pbrnerf">💻 Code</a>
+
+
+
+#### [CVPR 2024] GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces
+
+**Authors:** [Yingwenqi Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+Y), [Jiadong Tu](https://arxiv.org/search/cs?searchtype=author&query=Tu,+J), [Yuan Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+Y), [Xifeng Gao](https://arxiv.org/search/cs?searchtype=author&query=Gao,+X), [Xiaoxiao Long](https://arxiv.org/search/cs?searchtype=author&query=Long,+X), [Wenping Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+W), [Yuexin Ma](https://arxiv.org/search/cs?searchtype=author&query=Ma,+Y)
+
+<details span><summary><b>Abstract</b></summary>
+The advent of neural 3D Gaussians has recently brought about a revolution in the field of neural rendering, facilitating the generation of high-quality renderings at real-time speeds. However, the explicit and discrete representation encounters challenges when applied to scenes featuring reflective surfaces. In this paper, we present GaussianShader, a novel method that applies a simplified shading function on 3D Gaussians to enhance the neural rendering in scenes with reflective surfaces while preserving the training and rendering efficiency. The main challenge in applying the shading function lies in the accurate normal estimation on discrete 3D Gaussians. Specifically, we proposed a novel normal estimation framework based on the shortest axis directions of 3D Gaussians with a delicately designed loss to make the consistency between the normals and the geometries of Gaussian spheres. Experiments show that GaussianShader strikes a commendable balance between efficiency and visual quality. Our method surpasses Gaussian Splatting in PSNR on specular object datasets, exhibiting an improvement of 1.57dB. When compared to prior works handling reflective surfaces, such as Ref-NeRF, our optimization time is significantly accelerated (23h vs. 0.58h). Please click on our project website to see more results.
+</details>
+<a href="https://arxiv.org/abs/2311.17977">📄 Paper</a>  
+<a href="https://asparagus15.github.io/GaussianShader.github.io/">🌐 Project Page</a>  
+<a href="https://github.com/Asparagus15/GaussianShader">💻 Code</a>
 
 ## Physics-Informed Fluid Reconstruction
 
@@ -342,3 +383,4 @@ We present a method that simultaneously addresses the tasks of dynamic scene nov
 <a href="https://arxiv.org/pdf/2308.09713">📄 Paper</a>  
 <a href="https://dynamic3dgaussians.github.io/">🌐 Project Page</a>  
 <a href="https://github.com/JonathonLuiten/Dynamic3DGaussians">💻 Code</a>
+
