@@ -14,9 +14,9 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 
 ## Related Knowledge Resources
 
-<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes">**Physics for Computer Graphics Self-Studying Plan**`</a>` (By Myself)
+<a href="https://github.com/HaoqinHong/Physics-for-Graphics-Notes">**Physics for Computer Graphics Self-Studying Plan**</a> (By Myself)
 
-<a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting"> **Awesome 3D Gaussian Splatting**`</a>`
+<a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting"> **Awesome 3D Gaussian Splatting**</a>
 
 **🫡 [Keep Updating] Paper Interpretation** (By Myself, only allowed for studying):
 
@@ -184,8 +184,6 @@ Text-to-3D generation is a valuable technology in virtual reality and digital co
 <a href="https://arxiv.org/abs/2412.05560">📄 Paper</a>  
 <a>💻 Code (Not yet)</a>
 
-
-
 #### Sim Anything: Automated 3D Physical Simulation of Open-world Scene with Gaussian Splatting
 
 **Authors:** [Haoyu Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+H), [Hao Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+H), [Xingyue Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+X), [Hongqiu Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+H), [Zhiyu Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+Z), [Chengjiang Long](https://arxiv.org/search/cs?searchtype=author&query=Long,+C), [Hua Zou](https://arxiv.org/search/cs?searchtype=author&query=Zou,+H)
@@ -221,8 +219,6 @@ We tackle the ill-posed inverse rendering problem in 3D reconstruction with a Ne
 </details>
 <a href="https://arxiv.org/html/2412.09680">📄 Paper</a>  
 <a href="https://github.com/s3anwu/pbrnerf">💻 Code</a>
-
-
 
 #### [CVPR 2024] GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces
 
