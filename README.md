@@ -118,7 +118,7 @@ Existing approaches to system identification (estimating the physical parameters
 
 ## Simulation Method Based on 3D Gaussian Splatting
 
-### 2024
+### 2025
 
 #### [AAAI 2025] DreamPhysics: Learning Physical Properties of Dynamic 3D Gaussians with Video Diffusion Priors
 
@@ -130,6 +130,8 @@ Dynamic 3D interaction has been attracting a lot of attention recently. However,
 <a href="https://arxiv.org/abs/2406.01476">📄 Paper</a> 
 <a href="https://github.com/tyhuang0428/dreamphysics">💻 Code</a>
 
+
+### 2024
 #### Gaussian Splashing: Unified Particles for Versatile Motion Synthesis and Rendering
 
 **Authors:** [Yutao Feng](https://arxiv.org/search/cs?searchtype=author&query=Feng,+Y), [Xiang Feng](https://arxiv.org/search/cs?searchtype=author&query=Feng,+X), [Yintong Shang](https://arxiv.org/search/cs?searchtype=author&query=Shang,+Y), [Ying Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+Y), [Chang Yu](https://arxiv.org/search/cs?searchtype=author&query=Yu,+C), [Zeshun Zong](https://arxiv.org/search/cs?searchtype=author&query=Zong,+Z), [Tianjia Shao](https://arxiv.org/search/cs?searchtype=author&query=Shao,+T), [Hongzhi Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+H), [Kun Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+K), [Chenfanfu Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+C), [Yin Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+Y)
