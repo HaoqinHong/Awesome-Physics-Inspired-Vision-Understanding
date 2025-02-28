@@ -18,6 +18,8 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 
 <a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting"> **Awesome 3D Gaussian Splatting**</a>
 
+<a href="https://github.com/Awesome3DGS/3D-Gaussian-Splatting-Papers?tab=readme-ov-file"> **3D Gaussian Splatting Papers**</a>
+
 **🫡 [Keep Updating] Paper Interpretation** (By Myself, only allowed for studying):
 
 <details>
@@ -53,6 +55,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 ## Update Log
 
 <details span><summary><b>Details</b></summary>
+<li> 2025-2-28 by Haoqin Hong: Update 3D Gaussian Splatting Papers.</li>
 <li>2024-12-21 by Haoqin Hong: Update Physically-Based Rendering Using NeRF or 3DGS module and 3 papers.</li>
 <li>2024-12-17 by Haoqin Hong: Refine the Projects.</li>
 <li>2024-12-10 by Haoqin Hong: Update Representive Basic Methods: 3D Reconstruction or Dynamic New View Synthesis module.</li>
@@ -117,7 +120,7 @@ Existing approaches to system identification (estimating the physical parameters
 
 ### 2024
 
-#### DreamPhysics: Learning Physical Properties of Dynamic 3D Gaussians with Video Diffusion Priors
+#### [AAAI 2025] DreamPhysics: Learning Physical Properties of Dynamic 3D Gaussians with Video Diffusion Priors
 
 [T Huang](https://scholar.google.com/citations?user=vhHmAJYAAAAJ&hl=zh-CN&oi=sra), H Zhang, Y Zeng, [Z Zhang](https://scholar.google.com/citations?user=8pIq2N0AAAAJ&hl=zh-CN&oi=sra), H Li, [W Zuo](https://scholar.google.com/citations?user=rUOpCEYAAAAJ&hl=zh-CN&oi=sra), [RWH Lau](https://scholar.google.com/citations?user=KilQqKYAAAAJ&hl=zh-CN&oi=sra)
 
