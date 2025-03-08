@@ -1,6 +1,6 @@
-### Awesome-Physics-Inspired-3D-Reconstruction-and-Simulation
+### Awesome-Physics-Inspired-Vision-Understanding
 
-A curated list of papers and open-source resources focused on Physics-Inspired 3D Reconstruction and Simulation, intended to keep pace with the anticipated surge of research in the coming months. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
+A curated list of papers and open-source resources focused on Physics-Inspired Vision Understanding, intended to keep pace with the anticipated surge of research in the coming months. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
 
 ## Table of contents
 
@@ -55,7 +55,8 @@ A curated list of papers and open-source resources focused on Physics-Inspired 3
 ## Update Log
 
 <details span><summary><b>Details</b></summary>
-<li> 2025-2-28 by Haoqin Hong: Update 3D Gaussian Splatting Papers.</li>
+<li>2025-3-8 by Haoqin Hong: Update CVPR 2025 Papers.</li>
+<li>2025-2-28 by Haoqin Hong: Update 3D Gaussian Splatting Papers.</li>
 <li>2024-12-21 by Haoqin Hong: Update Physically-Based Rendering Using NeRF or 3DGS module and 3 papers.</li>
 <li>2024-12-17 by Haoqin Hong: Refine the Projects.</li>
 <li>2024-12-10 by Haoqin Hong: Update Representive Basic Methods: 3D Reconstruction or Dynamic New View Synthesis module.</li>
@@ -237,6 +238,18 @@ The advent of neural 3D Gaussians has recently brought about a revolution in the
 <a href="https://github.com/Asparagus15/GaussianShader">💻 Code</a>
 
 ## Physics-Informed Fluid Reconstruction
+
+### 2025 
+#### [CVPR 2025] FluidNexus: 3D Fluid Reconstruction and Prediction from a Single Video
+**Authors:** Yue Gao, Hong-Xing Yu, Bo Zhu, Jiajun Wu
+
+<details span><summary><b>Abstract</b></summary>
+We study reconstructing and predicting 3D fluid appearance and velocity from a single video. Current methods require multi-view videos for fluid reconstruction. We present FluidNexus, a novel framework that bridges video generation and physics simulation to tackle this task. Our key insight is to synthesize multiple novel-view videos as references for reconstruction. FluidNexus consists of two key components: (1) a novel-view video synthesizer that combines frame-wise view synthesis with video diffusion refinement for generating realistic videos, and (2) a physics-integrated particle representation coupling differentiable simulation and rendering to simultaneously facilitate 3D fluid reconstruction and prediction. To evaluate our approach, we collect two new real-world fluid datasets featuring textured backgrounds and object interactions. Our method enables dynamic novel view synthesis, future prediction, and interaction simulation from a single fluid video. Project website: this https URL.
+</details>
+<a href="https://arxiv.org/abs/2503.04720">📄 Paper</a>  
+<a href="https://yuegao.me/FluidNexus/">🌐 Project Page</a>  
+<a href="https://github.com/ueoo/FluidNexus">💻 Code (Not Released Yet!)</a>
+
 
 ### 2024
 
