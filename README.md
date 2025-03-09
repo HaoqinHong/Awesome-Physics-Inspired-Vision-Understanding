@@ -121,9 +121,20 @@ Existing approaches to system identification (estimating the physical parameters
 
 ### 2025
 
+#### [ICLR 2025] OmniPhysGS: 3D Constitutive Gaussians for General Physics-based Dynamics Generation
+**Authors:** Yuchen Lin, Chenguo Lin, Jianjin Xu, Yadong Mu
+
+<details span><summary><b>Abstract</b></summary>
+Recently, significant advancements have been made in the reconstruction and generation of 3D assets, including static cases and those with physical interactions. To recover the physical properties of 3D assets, existing methods typically assume that all materials belong to a specific predefined category (e.g., elasticity). However, such assumptions ignore the complex composition of multiple heterogeneous objects in real scenarios and tend to render less physically plausible animation given a wider range of objects. We propose OmniPhysGS for synthesizing a physics-based 3D dynamic scene composed of more general objects. A key design of OmniPhysGS is treating each 3D asset as a collection of constitutive 3D Gaussians. For each Gaussian, its physical material is represented by an ensemble of 12 physical domain-expert sub-models (rubber, metal, honey, water, etc.), which greatly enhances the flexibility of the proposed model. In the implementation, we define a scene by user-specified prompts and supervise the estimation of material weighting factors via a pretrained video diffusion model. Comprehensive experiments demonstrate that OmniPhysGS achieves more general and realistic physical dynamics across a broader spectrum of materials, including elastic, viscoelastic, plastic, and fluid substances, as well as interactions between different materials. Our method surpasses existing methods by approximately 3% to 16% in metrics of visual quality and text alignment.
+</details>
+<a href="https://arxiv.org/abs/2501.18982">📄 Paper</a>  
+<a href="https://wgsxm.github.io/projects/omniphysgs/">🌐 Project Page</a>  
+<a href="https://github.com/wgsxm/OmniPhysGS">💻 Code</a>
+
+
 #### [AAAI 2025] DreamPhysics: Learning Physical Properties of Dynamic 3D Gaussians with Video Diffusion Priors
 
-[T Huang](https://scholar.google.com/citations?user=vhHmAJYAAAAJ&hl=zh-CN&oi=sra), H Zhang, Y Zeng, [Z Zhang](https://scholar.google.com/citations?user=8pIq2N0AAAAJ&hl=zh-CN&oi=sra), H Li, [W Zuo](https://scholar.google.com/citations?user=rUOpCEYAAAAJ&hl=zh-CN&oi=sra), [RWH Lau](https://scholar.google.com/citations?user=KilQqKYAAAAJ&hl=zh-CN&oi=sra)
+**Authors:** [T Huang](https://scholar.google.com/citations?user=vhHmAJYAAAAJ&hl=zh-CN&oi=sra), H Zhang, Y Zeng, [Z Zhang](https://scholar.google.com/citations?user=8pIq2N0AAAAJ&hl=zh-CN&oi=sra), H Li, [W Zuo](https://scholar.google.com/citations?user=rUOpCEYAAAAJ&hl=zh-CN&oi=sra), [RWH Lau](https://scholar.google.com/citations?user=KilQqKYAAAAJ&hl=zh-CN&oi=sra)
 
 <details span><summary><b>Abstract</b></summary>
 Dynamic 3D interaction has been attracting a lot of attention recently. However, creating such 4D content remains challenging. One solution is to animate 3D scenes with physics-based simulation, which requires manually assigning precise physical properties to the object or the simulated results would become unnatural. Another solution is to learn the deformation of 3D objects with the distillation of video generative models, which, however, tends to produce 3D videos with small and discontinuous motions due to the inappropriate extraction and application of physical prior. In this work, combining the strengths and complementing shortcomings of the above two solutions, we propose to learn the physical properties of a material field with video diffusion priors, and then utilize a physics-based Material-Point-Method (MPM) simulator to generate 4D content with realistic motions. In particular, we propose motion distillation sampling to emphasize video motion information during distillation. Moreover, to facilitate the optimization, we further propose a KAN-based material field with frame boosting. Experimental results demonstrate that our method enjoys more realistic motion than state-of-the-arts. Codes are released at: https://github.com/tyhuang0428/DreamPhysics.
@@ -141,7 +152,8 @@ Dynamic 3D interaction has been attracting a lot of attention recently. However,
 We demonstrate the feasibility of integrating physics-based animations of solids and fluids with 3D Gaussian Splatting (3DGS) to create novel effects in virtual scenes reconstructed using 3DGS. Leveraging the coherence of the Gaussian Splatting and Position-Based Dynamics (PBD) in the underlying representation, we manage rendering, view synthesis, and the dynamics of solids and fluids in a cohesive manner. Similar to GaussianShader, we enhance each Gaussian kernel with an added normal, aligning the kernel's orientation with the surface normal to refine the PBD simulation. This approach effectively eliminates spiky noises that arise from rotational deformation in solids. It also allows us to integrate physically based rendering to augment the dynamic surface reflections on fluids. Consequently, our framework is capable of realistically reproducing surface highlights on dynamic fluids and facilitating interactions between scene objects and fluids from new views. For more information, please visit our project page at \url{[this https URL](https://gaussiansplashing.github.io/)}.
 </details>
 <a href="https://arxiv.org/abs/2401.15318">📄 Paper</a>  
-<a href="https://gaussiansplashing.github.io/">🌐 Project Page</a>  <a>💻 Code (Not yet)</a>
+<a href="https://gaussiansplashing.github.io/">🌐 Project Page</a>  
+<a>💻 Code (Not yet)</a>
 
 #### [ACM MM 2024] LoopGaussian: Creating 3D Cinemagraph with Multi-view Images via Eulerian Motion Field
 
