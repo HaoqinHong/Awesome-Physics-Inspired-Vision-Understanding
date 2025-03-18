@@ -20,6 +20,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired V
 
 <a href="https://github.com/Awesome3DGS/3D-Gaussian-Splatting-Papers?tab=readme-ov-file"> **3D Gaussian Splatting Papers**</a>
 
+<a href="https://github.com/BestJunYu/Awesome-Physics-aware-Generation?tab=readme-ov-file#physics-understanding-from-videosobservations"> **Awesome-Physics-aware-Generation**</a>
 **🫡 [Keep Updating] Paper Interpretation** (By Myself, only allowed for studying):
 
 <details>
