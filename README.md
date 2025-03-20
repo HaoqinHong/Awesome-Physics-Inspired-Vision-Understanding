@@ -53,6 +53,8 @@ A curated list of papers and open-source resources focused on Physics-Inspired V
 ## Open-Source Tools
 
 <li><a href="https://playcanvas.com/supersplat/editor/ "> Online Gaussian Editor</a></li>
+<li><a href="https://projects.markkellogg.org/threejs/demo_gaussian_splats_3d.php"> 3D Gaussian Splatting with Three.js</a></li>
+
 
 ## Update Log
 
