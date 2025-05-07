@@ -59,6 +59,7 @@ A curated list of papers and open-source resources focused on Physics-Inspired V
 ## Update Log
 
 <details span><summary><b>Details</b></summary>
+<li>2025-5-7 by Haoqin Hong: Update PhysTwin.</li>
 <li>2025-3-8 by Haoqin Hong: Update CVPR 2025 Papers.</li>
 <li>2025-2-28 by Haoqin Hong: Update 3D Gaussian Splatting Papers.</li>
 <li>2024-12-21 by Haoqin Hong: Update Physically-Based Rendering Using NeRF or 3DGS module and 3 papers.</li>
