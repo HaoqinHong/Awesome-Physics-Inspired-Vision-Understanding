@@ -73,6 +73,17 @@ A curated list of papers and open-source resources focused on Physics-Inspired V
 
 ## Solution of Inverse Problems Using NeRF or 3DGS
 
+### 2025
+#### PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos
+**Authors:** Hanxiao Jiang, Hao-Yu Hsu, Kaifeng Zhang, Hsin-Ni Yu, Shenlong Wang, Yunzhu Li
+<details span><summary><b>Abstract</b></summary>
+Creating a physical digital twin of a real-world object has immense potential in robotics, content creation, and XR. In this paper, we present PhysTwin, a novel framework that uses sparse videos of dynamic objects under interaction to produce a photo- and physically realistic, real-time interactive virtual replica. Our approach centers on two key components: (1) a physics-informed representation that combines spring-mass models for realistic physical simulation, generative shape models for geometry, and Gaussian splats for rendering; and (2) a novel multi-stage, optimization-based inverse modeling framework that reconstructs complete geometry, infers dense physical properties, and replicates realistic appearance from videos. Our method integrates an inverse physics framework with visual perception cues, enabling high-fidelity reconstruction even from partial, occluded, and limited viewpoints. PhysTwin supports modeling various deformable objects, including ropes, stuffed animals, cloth, and delivery packages. Experiments show that PhysTwin outperforms competing methods in reconstruction, rendering, future prediction, and simulation under novel interactions. We further demonstrate its applications in interactive real-time simulation and model-based robotic motion planning.
+</details>
+<a href="https://arxiv.org/abs/2503.17973">📄 Paper</a>  
+<a href="https://jianghanxiao.github.io/phystwin-web/">🌐 Project Page</a>  
+<a href="https://github.com/Jianghanxiao/PhysTwin">💻 Code</a>
+
+
 ### 2024
 
 #### [ECCV 2024] Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians
